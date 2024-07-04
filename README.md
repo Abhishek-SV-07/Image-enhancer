@@ -5,7 +5,13 @@ This repository contains a Python script that performs basic image manipulation 
 
 ## Installation
 
-To run this script, you need Python and Pillow. You can install Pillow using pip:
+To run this script, you need Python and Pillow. Before installing Pillow, you can check if it is already installed on your system:
+
+```bash
+python3 -m pip show Pillow
+```
+
+If the above command does not show any output (i.e., Pillow is not installed), you can install Pillow using pip:
 
 ```bash
 pip install Pillow
