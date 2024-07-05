@@ -19,7 +19,7 @@ pip install Pillow
 
 ## Usage
 
-To use this script, you should have an image file in a supported format (e.g., JPG, PNG). Specify the path to your image when calling the function. Place the source image name in the 'image_path' variable and the destination image name in 'output_path' variable.
+To use this script, you should have an image file in a supported format (e.g., JPG, PNG) in the same directory as the python script.Place the source image name (eg., image.jpg or image.png) in the 'image_path' variable and the destination image name (e.g,, output.jpg or output.png) in 'output_path' variable.
 
 ```python
 image_path = 'path_to_your_image.jpg'
